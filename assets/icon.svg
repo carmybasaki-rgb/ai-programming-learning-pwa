@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="AI programming icon">
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="44" fill="#0f172a"/>
+  <rect x="28" y="28" width="200" height="200" rx="34" fill="url(#grad)"/>
+  <path d="M74 104h108l-18 48H55l19-48Zm20 14 9 24h44l-8-24h-45Zm65 0 17 24h18l-14-24h-21ZM118 86l12-26h18l-9 26h-21Z" fill="#fff" opacity="0.98"/>
+  <path d="M96 164h64v18H96z" fill="#dbeafe"/>
+  <path d="M142 144h30v18h-30z" fill="#e9d5ff"/>
+</svg>

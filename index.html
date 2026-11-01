@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta
+      name="description"
+      content="PWA complète pour apprendre la programmation assistée par IA."
+    />
+    <title>IA & Programmation</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <div class="logo">AI</div>
+          <div>
+            <h1>IA & Programmation</h1>
+            <p>Formation assistée par IA</p>
+          </div>
+        </div>
+
+        <nav class="header-actions">
+          <button id="themeToggle" class="ghost-button">Thème</button>
+          <button id="exportPptx" class="primary-button">Exporter PPTX</button>
+          <button id="printPage" class="ghost-button">Imprimer</button>
+        </nav>
+      </header>
+
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2>Table des matières</h2>
+          <span id="chapterCount">0 chapitres</span>
+        </div>
+        <div id="chaptersList" class="chapters-list"></div>
+      </aside>
+
+      <main class="content">
+        <section id="hero" class="hero-panel">
+          <div>
+            <p class="eyebrow">Programme complet</p>
+            <h2>Apprendre la programmation avec l’IA</h2>
+            <p class="hero-text">
+              Une formation progressive pour utiliser les assistants IA comme copilotes,
+              générateurs de code, validateurs, reviewers, tests et outils de pédagogie.
+            </p>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong>60</strong>
+              <span>chapitres</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>offline-ready</span>
+            </div>
+            <div>
+              <strong>PWA</strong>
+              <span>installable</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="chapterView" class="chapter-card">
+          <div id="chapterContent"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

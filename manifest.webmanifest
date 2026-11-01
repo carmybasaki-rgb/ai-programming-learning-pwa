@@ -1,0 +1,17 @@
+{
+  "name": "IA & Programmation",
+  "short_name": "AIProg",
+  "description": "PWA pour apprendre la programmation assistée par IA.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3f7ff",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

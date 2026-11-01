@@ -1,0 +1,25 @@
+{
+  "name": "ai-programming-learning-pwa",
+  "version": "1.0.0",
+  "description": "PWA complète pour enseigner la programmation assistée par IA avec export PPTX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node build.js",
+    "dev": "npx http-server . -p 8080"
+  },
+  "keywords": [
+    "pwa",
+    "ai",
+    "programming",
+    "education",
+    "pptx",
+    "learning"
+  ],
+  "author": "AI Studio",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pptxgenjs": "^3.12.0"
+  }
+}
